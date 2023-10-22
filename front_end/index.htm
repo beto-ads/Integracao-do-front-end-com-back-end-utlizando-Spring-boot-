@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script type="text/javascript" src="./scripts.js"></script>
+</head>
+<body>
+    <form>
+        Client
+        <br><br>name: <input type="text" id="name"><br>
+        <br><br>Last name: <input type="text" id="lastname"><br>
+        <br><br>document: <input type="text" id="document"><br>
+    </form> 
+    <br><button onclick="postClient()">Create</button>  
+    <br><br><button onclick="getClients()">Refresh</button>
+    <table>
+        <tr id="client"></tr>
+    </table>
+</body>
+</html>
